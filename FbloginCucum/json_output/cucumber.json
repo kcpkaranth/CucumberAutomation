@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Fb login test scenario",
+        "description": "",
+        "id": "about-fb-login;fb-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45470439875,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens browser",
+            "match": {
+              "location": "TestMethods.open_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35729605501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "TestMethods.navigate_to_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9548982557,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter email id and enter password",
+            "match": {
+              "location": "TestMethods.enter_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5410949055,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "TestMethods.login_click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1299005516,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close the browser",
+            "match": {
+              "location": "TestMethods.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "about fb login",
+    "description": "",
+    "id": "about-fb-login",
+    "keyword": "Feature",
+    "uri": "F:/selenium progs/FbloginCucum/src/test/java/features/login.feature"
+  }
+]
