@@ -27,9 +27,9 @@ public class TestMethods {
 	}
 	@Then("^enter email id and enter password$")
 	public void enter_credentials() throws Exception {
-		driver.findElement(By.id("email")).sendKeys("kcpkaranth@gmail.com");
+		driver.findElement(By.id("email")).sendKeys("karanthcoaching@gmail.com");
 		Thread.sleep(2000);
-		driver.findElement(By.id("pass")).sendKeys("kammardi2");
+		driver.findElement(By.id("pass")).sendKeys("TestMaster");
 		Thread.sleep(2000);
 	}
 	@And("^click on login button$")
